@@ -18,7 +18,6 @@ btn.addEventListener("click", function () {
   console.log(email.value);
   emailVerifica = false;
 
-  console.log("Dentro Event");
   for (i = 0; i < emailInvitati.length; i++) {
     console.log(emailInvitati[i]);
 
